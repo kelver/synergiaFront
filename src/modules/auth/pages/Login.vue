@@ -1,9 +1,10 @@
 <template>
-  <v-container>
-    <v-flex class="align-center">
-      <v-col lg="6" offset="3">
+  <v-container fill-height fluid>
+    <v-flex class="align-center" xs12 sm8 md6 lg6 offset-sm2 offset-md3 offset-lg3>
         <v-card lg="12"
-          class="mx-auto"
+          class="pa-md-4"
+          elevation="8"
+          shaped
         >
           <v-card-title class="primary" style="justify-content: center;">
             <h1>Login</h1>
@@ -46,7 +47,6 @@
             </form>
           </v-card-text>
         </v-card>
-      </v-col>
     </v-flex>
   </v-container>
 </template>
